@@ -5,11 +5,11 @@ The antiVM aims to quickly identify anti-virtual machine and anti-sandbox behavi
 
 This antiVM.rules is based on an extension of [here](https://github.com/Yara-Rules). Then, using the [al-khaser](https://github.com/LordNoteworthy/al-khaser) to test and enrich the rules.
 
-Unfortunately, the al-khaser don not provide release any more. You can find the in this repo.
+Unfortunately, the al-khaser don not provide release any more. You can find this in this repo.
 
 # How to use
 
-Just put the antiVM.py and antiVM.rules in your ida7.x  plugins directory and here we go.
+Just put the `antiVM.py` and `antiVM.rules` in your `ida7.x  plugins` directory and here we go.
 
 Before using the plugin you must install the python Yara module:`pip install yara-python`
 
